@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <form action="task2.php" method="POST">
+        <span style="display: inline-block; width: 100px; margin: 10px;"
+          >Имя:</span
+        >
+        <input type="text" name="name" /> <br />
+        <span style="display: inline-block; width: 100px; margin: 10px;">
+          E-mail:</span
+        >
+        <input type="text" name="email" /><br />
+        <span style="display: inline-block; width: 100px; margin: 10px;"
+          >Тема:</span
+        >
+        <input type="text" name="subject" />
+        <span class="error"><br />
+        <span style="display: inline-block; width: 100px; margin: 10px;"
+          >Сообщение:</span
+        >
+        <textarea name="message" rows="5" cols="40"></textarea>
+        <span class="error"><br />
+        <button
+          style="display: inline-block; width: 100px; margin: 10px;"
+          type="submit"
+          name="submit"
+          value="submit"
+        >
+          Send
+        </button>
+      </form>
+    </div>
+  </body>
+</html>
